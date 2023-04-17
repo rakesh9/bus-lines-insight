@@ -1,6 +1,7 @@
 # Bus Lines Insight
 
-The Bus Lines Insight application finds out which bus lines have the most bus stops on their route, and lists the top 10 as clear text and also lists the names of every bus stop of the bus line that has the most stops. Additionally, the application exposes the same information through a REST API.
+The Bus Lines Insight application finds out which bus lines have the most bus stops on their route, and lists the top 10 as clear text and also lists the names of every bus stop of the bus line that has the most stops.
+The application extracts this information using Trafiklab's open API, which is available at http://www.trafiklab.se/api/sl-hallplatser-och-linjer-2
 
 ## Prerequisites
 
