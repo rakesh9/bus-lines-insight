@@ -34,6 +34,7 @@ public class TrafiklabApiClient {
 
     public List<BusLines> getBusLinesWithStops() {
         HttpHeaders headers = new HttpHeaders();
+        headers.set(HttpHeaders.ACCEPT_ENCODING, "gzip, deflate");
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
 
         // Get Bus lines information
@@ -64,6 +65,7 @@ public class TrafiklabApiClient {
 
     public List<BusStops> getBusStopDetails() {
         HttpHeaders headers = new HttpHeaders();
+        headers.set(HttpHeaders.ACCEPT_ENCODING, "gzip, deflate");
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
 
         // Get Bus stops information
