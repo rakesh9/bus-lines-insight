@@ -3,6 +3,11 @@
 The Bus Lines Insight application finds out which bus lines have the most bus stops on their route, and lists the top 10 as clear text and also lists the names of every bus stop of the bus line that has the most stops.
 The application extracts this information using Trafiklab's open API, which is available at http://www.trafiklab.se/api/sl-hallplatser-och-linjer-2
 
+## Technology stack
+- Java 17
+- Spring boot 3
+- Gradle 7.6
+
 ## Prerequisites
 
 To run the Bus Lines Insight application, you'll need the following:
